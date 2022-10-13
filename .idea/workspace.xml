@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9986bf67-09ad-4980-9c3f-21548a942d52" name="Changes" comment="Project done">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ColorConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ColorTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="AnnotationType" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2G2MXoWYZgXGeEEzGnApRoMjcjE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "19",
+    "last_opened_file_path": "C:/Users/tkazinoti/Documents/java-lab/vjezba1/pom.xml",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "MavenSettings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ColorTest">
+    <configuration name="Run Tests" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ColorTest" />
+      <module name="vjezba1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ColorConverter" />
+      <module name="vjezba1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vjezba1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ColorTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColorTest.whenGivenInvalidHexColorExpectIllegalArgumentException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vjezba1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ColorTest" />
+      <option name="METHOD_NAME" value="whenGivenInvalidHexColorExpectIllegalArgumentException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColorTest.whenGivenRGBValuesNotInValidRangeExpectIllegalArgumentExceptionInRGBToHSB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vjezba1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ColorTest" />
+      <option name="METHOD_NAME" value="whenGivenRGBValuesNotInValidRangeExpectIllegalArgumentExceptionInRGBToHSB(float,float,float)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColorTest.whenGivenValidHexColorExpectCorrectDecodingToRGB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vjezba1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ColorTest" />
+      <option name="METHOD_NAME" value="whenGivenValidHexColorExpectCorrectDecodingToRGB" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Run Tests" />
+      <item itemvalue="Application.Run" />
+      <item itemvalue="JUnit.ColorTest" />
+      <item itemvalue="JUnit.ColorTest.whenGivenInvalidHexColorExpectIllegalArgumentException" />
+      <item itemvalue="JUnit.ColorTest.whenGivenRGBValuesNotInValidRangeExpectIllegalArgumentExceptionInRGBToHSB" />
+      <item itemvalue="JUnit.ColorTest.whenGivenValidHexColorExpectCorrectDecodingToRGB" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ColorTest" />
+        <item itemvalue="JUnit.ColorTest.whenGivenRGBValuesNotInValidRangeExpectIllegalArgumentExceptionInRGBToHSB" />
+        <item itemvalue="JUnit.ColorTest.whenGivenInvalidHexColorExpectIllegalArgumentException" />
+        <item itemvalue="JUnit.ColorTest.whenGivenValidHexColorExpectCorrectDecodingToRGB" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9986bf67-09ad-4980-9c3f-21548a942d52" name="Changes" comment="" />
+      <created>1665582269151</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665582269151</updated>
+      <workItem from="1665582274699" duration="502000" />
+      <workItem from="1665582977984" duration="2572000" />
+      <workItem from="1665592667692" duration="20079000" />
+      <workItem from="1665658893441" duration="323000" />
+      <workItem from="1665659227442" duration="18152000" />
+      <workItem from="1665685126132" duration="236000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project done" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/vjezba1$Run.ic" NAME="Run Coverage Results" MODIFIED="1665598294972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
