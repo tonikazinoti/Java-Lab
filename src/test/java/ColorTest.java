@@ -6,6 +6,20 @@ import static org.assertj.core.api.Assertions.assertThatIllegalArgumentException
 import static org.assertj.core.api.AssertionsForClassTypes.*;
 
 class ColorTest {
+    @Test
+    void whenNoArgsConstructor_ThenColorIsWhite() {
+        final var maxRGBValueDecimal = 255;
+
+        Color color = new Color();
+        var actualRed = color.getRed();
+        var actualGreen = color.getGreen();
+        var actualBlue = color.getBlue();
+
+        assertThat(actualRed).isEqualTo(maxRGBValueDecimal);
+        assertThat(actualGreen).isEqualTo(maxRGBValueDecimal);
+        assertThat(actualBlue).isEqualTo(maxRGBValueDecimal);
+    }
+
     @ParameterizedTest
     @CsvSource({
             "25, 56, 300",
@@ -38,7 +52,7 @@ class ColorTest {
     }
 
     @Test
-    public void givenValidHexFormat_WhenDecode_ThenCorrectDecodedRGBFormat() {
+    void givenValidHexFormat_WhenDecode_ThenCorrectDecodedRGBFormat() {
         var validHexColor = "0x1FF0FF";
 
         var expectedRedColor = 31;
@@ -69,7 +83,8 @@ class ColorTest {
             "31, 240, 255, 0.51, 0.88, 1",
             "0, 0, 0, 0, 0, 0",
             "255, 255, 255, 0, 0, 1",
-            "15, 90, 87, 0.49, 0.83, 0.35"
+            "15, 90, 87, 0.49, 0.83, 0.35",
+            "127, 98, 13, 0.13, 0.9, 0.5"
     })
     void givenValidRGBFormat_WhenRGBToHSB_ThenCorrectDecodedHSBFormat(
             int validRedColor, int validGreenColor, int validBlueColor,

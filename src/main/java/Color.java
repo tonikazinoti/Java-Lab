@@ -1,15 +1,15 @@
 public class Color {
-    private static final int MAX_VALUE_DECIMAL = 255;
+    private static final int MAX_RGB_VALUE_DECIMAL = 255;
     private final int red;
     private final int green;
     private final int blue;
     private final int alpha;
 
     Color() {
-        this.red = MAX_VALUE_DECIMAL;
-        this.green = MAX_VALUE_DECIMAL;
-        this.blue = MAX_VALUE_DECIMAL;
-        this.alpha = MAX_VALUE_DECIMAL;
+        this.red = MAX_RGB_VALUE_DECIMAL;
+        this.green = MAX_RGB_VALUE_DECIMAL;
+        this.blue = MAX_RGB_VALUE_DECIMAL;
+        this.alpha = MAX_RGB_VALUE_DECIMAL;
     }
 
     Color(int red, int green, int blue, int alpha) throws IllegalArgumentException {
@@ -24,7 +24,7 @@ public class Color {
     }
 
     Color(int red, int green, int blue) {
-        this(red, green, blue, MAX_VALUE_DECIMAL);
+        this(red, green, blue, MAX_RGB_VALUE_DECIMAL);
     }
 
     public int getRed() {
