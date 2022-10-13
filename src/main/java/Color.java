@@ -12,15 +12,15 @@ public class Color {
         this.alpha = MAX_VALUE_DECIMAL;
     }
 
-    Color(int red, int green, int blue, int alpha) {
+    Color(int red, int green, int blue, int alpha) throws IllegalArgumentException {
+        if (isRGBColorNotValid(red, green, blue)) {
+            throw new IllegalArgumentException("Color Values Out Of Range");
+        }
+
         this.red = red;
         this.green = green;
         this.blue = blue;
         this.alpha = alpha;
-
-        if (isRGBColorNotValid(red, green, blue)) {
-            throw new IllegalArgumentException("Color Values Out Of Range");
-        }
     }
 
     Color(int red, int green, int blue) {
