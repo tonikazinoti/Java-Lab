@@ -31,7 +31,7 @@ class ColorTest {
     ) {
         assertThatIllegalArgumentException().isThrownBy(() ->
                 new Color(redColorDecimal, greenColorDecimal, blueColorDecimal)
-        ).withMessage("Color Values Out Of Range");
+        ).withMessage("RGB Format Not Valid");
     }
 
     @ParameterizedTest
@@ -113,7 +113,7 @@ class ColorTest {
     ) {
         assertThatIllegalArgumentException().isThrownBy(() ->
                 Color.RGBtoHSB(redColorDecimal, greenColorDecimal, blueColorDecimal, new float[3])
-        ).withMessage("Color Values Out Of Range");
+        ).withMessage("RGB Format Not Valid");
     }
 
     @ParameterizedTest
@@ -150,7 +150,7 @@ class ColorTest {
     ) {
         assertThatIllegalArgumentException().isThrownBy(() ->
                 Color.RGBtoHSL(redColorDecimal, greenColorDecimal, blueColorDecimal, new float[3])
-        ).withMessage("Color Values Out Of Range");
+        ).withMessage("RGB Format Not Valid");
     }
 
     @ParameterizedTest
@@ -189,6 +189,6 @@ class ColorTest {
     ) {
         assertThatIllegalArgumentException().isThrownBy(() ->
                 Color.RGBtoCMYK(redColorDecimal, greenColorDecimal, blueColorDecimal, new float[3])
-        ).withMessage("Color Values Out Of Range");
+        ).withMessage("RGB Format Not Valid");
     }
 }

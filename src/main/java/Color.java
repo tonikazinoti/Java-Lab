@@ -13,8 +13,8 @@ public class Color {
     }
 
     Color(int red, int green, int blue, int alpha) throws IllegalArgumentException {
-        if (isRGBColorNotValid(red, green, blue)) {
-            throw new IllegalArgumentException("Color Values Out Of Range");
+        if (isRGBFormatNotValid(red, green, blue)) {
+            throw new IllegalArgumentException("RGB Format Not Valid");
         }
 
         this.red = red;
@@ -69,8 +69,8 @@ public class Color {
     }
 
     public static void RGBtoHSB(int r, int g, int b, float[] hsbValues) throws IllegalArgumentException {
-        if (isRGBColorNotValid(r, g, b)) {
-            throw new IllegalArgumentException("Color Values Out Of Range");
+        if (isRGBFormatNotValid(r, g, b)) {
+            throw new IllegalArgumentException("RGB Format Not Valid");
         }
 
         final var hueIndex = 0;
@@ -110,15 +110,15 @@ public class Color {
         hsbValues[brightnessIndex] = maxColor;
     }
 
-    private static boolean isRGBColorNotValid(int r, int g, int b) {
+    private static boolean isRGBFormatNotValid(int r, int g, int b) {
         return r < 0 || r > 255 ||
                 g < 0 || g > 255 ||
                 b < 0 || b > 255;
     }
 
     public static void RGBtoHSL(int r, int g, int b, float[] hslValues) throws IllegalArgumentException {
-        if (isRGBColorNotValid(r, g, b)) {
-            throw new IllegalArgumentException("Color Values Out Of Range");
+        if (isRGBFormatNotValid(r, g, b)) {
+            throw new IllegalArgumentException("RGB Format Not Valid");
         }
 
         final var hueIndex = 0;
@@ -159,8 +159,8 @@ public class Color {
     }
 
     public static void RGBtoCMYK(int r, int g, int b, float[] cmykValues) throws IllegalArgumentException {
-        if (isRGBColorNotValid(r, g, b)) {
-            throw new IllegalArgumentException("Color Values Out Of Range");
+        if (isRGBFormatNotValid(r, g, b)) {
+            throw new IllegalArgumentException("RGB Format Not Valid");
         }
 
         // R, G, B values are divided by 255
