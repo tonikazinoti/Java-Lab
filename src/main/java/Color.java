@@ -55,6 +55,7 @@ public class Color {
         var redHex = hexColor.substring(2, 4);
         var greenHex = hexColor.substring(4, 6);
         var blueHex = hexColor.substring(6, 8);
+        
         var redDecimal = Integer.parseInt(redHex, 16);
         var greenDecimal = Integer.parseInt(greenHex, 16);
         var blueDecimal = Integer.parseInt(blueHex, 16);
