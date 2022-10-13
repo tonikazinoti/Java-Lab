@@ -6,6 +6,7 @@ import static org.assertj.core.api.Assertions.assertThatIllegalArgumentException
 import static org.assertj.core.api.AssertionsForClassTypes.*;
 
 class ColorTest {
+    
     @Test
     void whenNoArgsConstructor_ThenColorIsWhite() {
         final var maxRGBValueDecimal = 255;
